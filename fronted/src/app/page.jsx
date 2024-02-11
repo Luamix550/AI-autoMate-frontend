@@ -27,7 +27,7 @@ export default function Home() {
       <Link
         key={data.text}
         href={data.link}
-        className="group rounded-lg text-white hover:text-black border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+        className="group rounded-lg text-white hover:text-black border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
         rel="noopener noreferrer"
       >
         <h2 className={`mb-3 text-2xl font-semibold`}>
@@ -48,13 +48,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center ">
 
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 w-full text-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+        <p className="fixed left-0 top-0 w-full text-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl  lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4">
           A software designed to automate data filtering, sorting and organizing processes -&gt;
         </p>
       </div>
 
         <Image
-          className="relative -translate-y-3 dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          className="relative -translate-y-3 drop-shadow-[0_0_0.3rem_#ffffff70]"
           src="/logo_deff.png"
           alt="autoMate>> Logo"
           width={370}
