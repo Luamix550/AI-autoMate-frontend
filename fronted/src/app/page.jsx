@@ -57,7 +57,7 @@ export default function Home() {
           className="relative -translate-y-3 drop-shadow-[0_0_0.1rem_#ffffff70]"
           src="/logo_deff.png"
           alt="autoMate>> Logo"
-          width={370}
+          width={350}
           height={37}
           priority
         />
