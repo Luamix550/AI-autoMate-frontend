@@ -47,8 +47,8 @@ export default function Home() {
 
     <main className="flex min-h-screen flex-col items-center justify-center ">
 
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 w-full text-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl  lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex ">
+        <p className="fixed left-0 top-0 w-full text-center border-b border-gray-300 text-white bg-gradient-to-l from-black from-65% to-violet-950 pb-6 pt-8 backdrop-blur-2xl  lg:static lg:w-auto lg:rounded-xl lg:border lg:p-4">
           A software designed to automate data filtering, sorting and organizing processes -&gt;
         </p>
       </div>
