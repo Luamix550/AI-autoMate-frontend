@@ -31,11 +31,11 @@ export default function SignInPage() {
                             <div className=" text-sm">
                                 <label for="password" className="block">Password</label>
                                 <input type="password" name="password" id="password" placeholder="Password" className="w-full md:h-full md:text-[15px] px-4 py-2 md:py-1 rounded-md border-gray-700 bg-black text-white focus:border-transparent" />
-                                <div className="flex justify-end py-1 hover:drop-shadow-[0_0_0.3rem_#ffffff70] text-xs text-gray-300">
+                                <div className="flex justify-end py-1 hover:drop-shadow-[0_0_0.4rem_#ffffff70] text-xs text-gray-300">
                                     <a rel="noopener noreferrer" href="#">Forgot Password?</a>
                                 </div>
                             </div>
-                            <button className="block w-full hover:drop-shadow-[0_0_0.3rem_#ffffff70]
+                            <button className="block w-full hover:drop-shadow-[0_0_0.1rem_#ffffff70]
                          p-2 md:p-1 text-center text-gray-300 md:text-[15px] hover:text-white border border-purple-400 shadow shadow-purple-950 hover:duration-300 
                          hover:shadow-inner hover:shadow-purple-700 rounded-full">Sign in</button>
                         </form>
@@ -62,7 +62,7 @@ export default function SignInPage() {
                             </button>
                         </div>
                         <p className="text-xs text-center sm:px-6  text-gray-300">Don't have an account?
-                            <a rel="noopener noreferrer" href="#" className="underline hover:drop-shadow-[0_0_0.3rem_#ffffff70]"> Sign up</a>
+                            <a rel="noopener noreferrer" href="#" className="underline hover:drop-shadow-[0_0_0.4rem_#ffffff70]"> Sign up</a>
                         </p>
                     </div>
                 </div>

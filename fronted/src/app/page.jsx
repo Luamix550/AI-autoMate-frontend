@@ -36,7 +36,7 @@ export default function Home() {
             -&gt;
           </span>
         </h2>
-        <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+        <p className={`m-0 max-w-[30ch] text-sm hover:text-black`}>
           {data.text}
         </p>
       </Link>
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
         <Image
-          className="relative -translate-y-3 drop-shadow-[0_0_0.3rem_#ffffff70]"
+          className="relative -translate-y-3 drop-shadow-[0_0_0.1rem_#ffffff70]"
           src="/logo_deff.png"
           alt="autoMate>> Logo"
           width={370}
