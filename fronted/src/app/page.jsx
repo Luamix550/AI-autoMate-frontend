@@ -1,6 +1,7 @@
-"use client";
 import Image from 'next/image'
 import Link from 'next/link'
+
+import TextEncrypted from './components/textEncrypted'
 
 export default function Home() {
 
@@ -49,7 +50,7 @@ export default function Home() {
 
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex ">
         <p className="fixed left-0 top-0 w-full text-center border-b border-gray-300 text-white bg-gradient-to-l from-black from-65% to-violet-950 pb-6 pt-8 backdrop-blur-2xl  lg:static lg:w-auto lg:rounded-xl lg:border lg:p-4">
-          A software designed to automate data filtering, sorting and organizing processes -&gt;
+        <TextEncrypted text="A software designed to automate data filtering, sorting and organizing processes ->" />  
         </p>
       </div>
 

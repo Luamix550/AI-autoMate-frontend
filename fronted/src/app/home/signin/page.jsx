@@ -12,7 +12,7 @@ export default function SignInPage() {
         <main className="h-screen flex items-center justify-center">
 
             <div className='-translate-x-full'>
-                <Link href='/'  className='flex justify-center grid content-center border-[1px] border-purple-900 rounded-full h-10 w-10 text-2xl text-white bg-black hover:text-black hover:bg-gray-200 hover:duration-400 duration-400 absolute -translate-y-16 -translate-x-16'> &lt;-</Link>
+                <Link href='/'  className='hover:rotate-[360deg] flex justify-center grid content-center border-[1px] border-purple-900 rounded-full h-10 w-10 text-2xl text-white bg-black hover:text-black hover:bg-gray-200 hover:duration-400 duration-400 absolute -translate-y-16 -translate-x-16'> &lt;-</Link>
             </div>
 
             <div className='-translate-y-6 pb-8'>
